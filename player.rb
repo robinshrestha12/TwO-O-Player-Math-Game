@@ -10,9 +10,9 @@ class Player
   def losslife
     @lives -= 1
   end
-  def has_nolife
-    @lives == 0
-  end
+  # def has_nolife
+  #   @lives == 0
+  # end
   def new_question
 
     new_question = Questions.new
